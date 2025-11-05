@@ -1,0 +1,40 @@
+# Temporary outputs
+tmp/
+outputs/
+temp/
+cache/
+
+# Model files
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.bin
+
+# Virtual environment
+lib/
+lib64/
+bin/
+include/
+pyvenv.cfg
+*.so
+*.a
+
+# Model directories
+*_model/
+*_gpt/
+*_results/
+checkpoint-*/
+
+# Python
+__pycache__/
+*.pyc
+.Python
+
+# Data
+*.txt
+!requirements.txt
+!README.txt
+data/
